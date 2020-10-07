@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.criminalrecordfinal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Ui.SameNameActivity"></activity>
+        <activity android:name=".Fragment.FragmentAbout" />
+        <activity android:name=".Fragment.FragmentDetained" />
+        <activity android:name=".Fragment.FragmentWanted" />
+        <activity android:name=".Fragment.FragmentCriminalRecord" />
+        <activity android:name=".Fragment.FragmentTravel" />
+        <activity android:name=".Fragment.FragmentFamilyRelations" />
+        <activity android:name=".Fragment.FragmentPersonalData" />
+        <activity android:name=".Ui.PersonsInformationActivity" />
+        <activity android:name=".Fragment.FragmentSearchById" />
+        <activity android:name=".Fragment.FragmentSearchByName" />
+        <activity android:name=".Fragment.FragmentSearchByQr" />
+        <activity android:name=".Ui.SearchActivity" />
+        <activity android:name=".Ui.LoginActivity" />
+        <activity android:name=".Ui.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

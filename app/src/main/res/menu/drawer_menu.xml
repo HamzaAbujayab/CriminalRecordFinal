@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:title="الرئيسية">
+        <menu>
+            <item
+                android:id="@+id/personal_data"
+                android:icon="@drawable/icon_personal_data"
+                android:title="البيانات الشخصية" />
+
+            <item
+                android:id="@+id/family_relations"
+                android:icon="@drawable/icon_family_relations"
+                android:title="العلاقات العائلية" />
+
+            <item
+                android:id="@+id/travel"
+                android:icon="@drawable/icon_travel"
+                android:title="حركات السفر" />
+
+            <item
+                android:id="@+id/criminal_record"
+                android:icon="@drawable/icon_criminal_record"
+                android:title="السجل الجنائي" />
+
+            <item
+                android:id="@+id/detained"
+                android:icon="@drawable/icon_detained"
+                android:title="موقوف" />
+
+            <item
+                android:id="@+id/wanted"
+                android:icon="@drawable/icon_wanted"
+                android:title="مطلوب" />
+
+        </menu>
+    </item>
+
+    <item android:title="الإعدادات">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/icon_about"
+                android:title="حول"/>
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/icon_logout"
+                android:title="تسجيل خروج"/>
+        </menu>
+    </item>
+
+</menu>

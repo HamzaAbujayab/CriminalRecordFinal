@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_app"
+    tools:context=".Ui.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_marginTop="90dp"
+                android:src="@drawable/icon_logo" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13dp"
+                android:layout_marginTop="70dp"
+                android:shadowColor="#000000"
+                app:cardCornerRadius="15dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="385dp"
+                    android:layout_height="360dp">
+
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="مرحبا بك"
+                        android:textColor="@color/colorApp"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:text="قم بتسجيل الدخول باستخدام رقمك المالي"
+                        android:textColor="@color/colorText"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+                    <EditText
+                        android:id="@+id/emailEd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="16dp"
+                        android:drawableRight="@drawable/icon_user"
+                        android:drawablePadding="7dp"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:hint="الرقم المالي"
+                        android:inputType="number"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="15dp"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+                    <EditText
+                        android:id="@+id/passwordEd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="16dp"
+                        android:drawableRight="@drawable/icon_lock"
+                        android:drawablePadding="7dp"
+                        android:ems="10"
+                        android:gravity="right"
+                        android:hint="كلمة المرور"
+                        android:inputType="textPassword"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="15dp"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/emailEd" />
+
+
+                    <Button
+                        android:id="@+id/signBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="16dp"
+                        android:background="@drawable/shape_buttton"
+                        android:textColor="@color/white"
+                        android:text="تسجيل الدخول"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/passwordEd" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+        </TableLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

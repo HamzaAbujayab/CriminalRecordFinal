@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FragmentAbout">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:stretchColumns="1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/icon_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الضوابط والشروط"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorApp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/colorText"
+        android:textSize="13dp"
+        android:gravity="right"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:layout_editor_absoluteX="180dp"
+        android:scrollbarThumbVertical="@color/colorText"
+        android:text="الشروط والضوابط التالية تمثل اتفاقية ملزمة بينك وبين تطبيق السجل الجنائي، لذا نأمل قراءة الشروط التالية بعناية، وبالتالي عند استخدامك لتطبيقات الجوال أو الموقع الإلكتروني، فهذا يعني أنك موافق على هذه الشروط  والأحكام التي تحكم استخدامك للتطبيقات أو الموقع الإلكتروني، وفي حالة عدم الموافقة على هذه الشروط، يجب إيقاف استخدام التطبيقات والموقع الإلكتروني.
+\n\n
+يسمح لك باستخدام تطبيق السجل الجنائي في الحالات التالية:
+\n\n
+1. أنك تستطيع تشكيل عقد ملزم في اختصاصكم القضائي.
+\n
+2. الإلتزام بالشروط والأحكام.
+\n
+3. إعطاء معلومات دقيقة ومكتملة عند إنشاء حساب المستخدم.
+\n
+4. الإقرار بأنك المسؤول الوحيد عن استخدام التطبيق عند تسجيل الدخول إلى السجل الجنائي.
+\n
+5. عدم القيام بجمع أي معلومات شخصية لأغراض تجارية بما في ذلك الاسم الكامل، والعنوان، إلخ.
+\n
+6. منح كل مستخدم للسجل الجنائي، سواء باستخدام تطبيق السجل الجنائي أو أي تطبيق تم تطويره عن طريق طرف ثاني، رخصة غير حصرية للوصول إلى المدخلات الخاصة بك من خلال السجل الجنائي واستخدام وإعادة إنتاج وتوزيع وإعداد الأعمال المشتقة منه، وعرضها وتنفيذ مثل هذه الطلبات كما هو مصرح به من خلال وظائف تطبيق السجل الجنائي وتحت شروط الخدمة هذه.
+\n
+7. التأكيد على أن لدينا الحق في تحديد ما إذا كان أي من المدخلات الخاصة بك مناسبة وتتوافق مع شروط الخدمة لدينا، وإزالة أي منها أو جميعها، وإنهاء حسابك مع أو بدون إشعار مسبق. " />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </TableLayout>
+</ScrollView>

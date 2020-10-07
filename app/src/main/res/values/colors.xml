@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#1900CD</color>
+    <color name="colorAccent">#1900CD</color>
+    <color name="colorText">#000000</color>
+    <color name="colorApp">#1900CD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="view">#C0BFBF</color>
+    <color name="card">#BCBAEB</color>
+    <color name="exit">#FFC740</color>
+    <color name="returns">#1900CD</color>
+    <color name="enter">#D60D79</color>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/icon_search_name"
+        android:icon="@drawable/icon_search_name"
+        android:title="الإسم"/>
+
+    <item
+        android:id="@+id/icon_search_id"
+        android:icon="@drawable/icon_search_id_select"
+        android:title="رقم الهوية"/>
+
+    <item
+        android:id="@+id/icon_search_qr"
+        android:icon="@drawable/icon_search_qr"
+        android:title="QR"/>
+
+
+</menu>
